@@ -8,7 +8,7 @@
 import Foundation
 
 struct DailyScrum {
-    var tittle: String
+    var title: String
     var attendees: [String]
     var lengthInMinutes: Int
     var theme: Theme
@@ -17,8 +17,8 @@ struct DailyScrum {
 extension DailyScrum {
     static let  sampleData: [DailyScrum] =
     [
-        DailyScrum(tittle: "Desing", attendees: ["Carla", "Sophia", "Maria", "Simon"], lengthInMinutes: 10, theme: .poppy),
-        DailyScrum(tittle: "Web Dev", attendees: ["Mateo", "Jhon", "Ryan"], lengthInMinutes: 15, theme: .bubblegum),
-        DailyScrum(tittle: "Ios Dev", attendees: ["Dwayne", "Bradley", "Benito", "Fernanda", "Lindsey", "Aga", "Chad", "Jenn", "Sarah"], lengthInMinutes: 25, theme: .navy)
+        DailyScrum(title: "Desing", attendees: ["Carla", "Sophia", "Maria", "Simon"], lengthInMinutes: 10, theme: .poppy),
+        DailyScrum(title: "Web Dev", attendees: ["Mateo", "Jhon", "Ryan"], lengthInMinutes: 15, theme: .bubblegum),
+        DailyScrum(title: "iOS Dev", attendees: ["Dwayne", "Bradley", "Benito", "Fernanda", "Lindsey", "Chad"], lengthInMinutes: 25, theme: .buttercup),
     ]
 }
